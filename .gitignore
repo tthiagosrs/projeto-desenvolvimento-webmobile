@@ -1,0 +1,33 @@
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Dependências
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build / distribuição
+dist/
+build/
+out/
+*.log
+
+# Banco de dados local
+*.sqlite
+*.sqlite3
+*.db
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testes e cobertura
+coverage/
+.pytest_cache/
